@@ -1,0 +1,18 @@
+GET  http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/6277886ec0f0bbbd6a97bd07
+
+###
+POST http://localhost:3000/subscribers
+Content-Type : application/json
+
+###
+
+DELETE http://localhost:3000/subscribers/6277886ec0f0bbbd6a97bd07
+
+###
+
+PATCH http://localhost:3000/subscribers/6277886ec0f0bbbd6a97bd07
+Content-Type : application/json
