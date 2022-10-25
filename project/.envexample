@@ -1,0 +1,4 @@
+#DATABASE_URL = mongodb+srv://NFT123:NFT123@cluster0.qhflhxy.mongodb.net/NFT123?retryWrites=true&w=majority
+MONGO_URI = mongodb+srv://NFT123:NFT123@cluster0.qhflhxy.mongodb.net/NFT123?retryWrites=true&w=majority
+#MONGO_URI = mongodb://localhost:27017/
+JWT_SECRET = nft123

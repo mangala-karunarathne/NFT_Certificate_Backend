@@ -50,8 +50,10 @@ const registerUser = asyncHandler(async (req, res) => {
 // @route   POST /api/users/login
 // @access  Public
 const loginUser = asyncHandler(async (req, res) => {
+    console.log("login check", req.body)
     const {email, password} = req.body 
-
+    console.log("A", req.body.email)
+    // console.log("B", pwd)
     // Check for user email
     const user = await User.findOne({email})
 
